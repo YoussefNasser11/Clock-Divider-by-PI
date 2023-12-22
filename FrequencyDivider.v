@@ -1,14 +1,15 @@
 /*
 ===============================================================================
 File: FrequencyDivider.v
-Author: Eng. Youssef Nasser
+Alogerthim Developed by Eng.Ramy Rabie
+RTL Developed by: Eng.Youssef Nasser
 Topic: Clock Divider by PI (22/7)
 ===============================================================================
 
 Description:
 This Verilog module implements a clock divider by PI (approximately 22/7) to achieve a target output frequency. The goal is to divide an input clock signal (Fin) by PI, resulting in an average output frequency of 31.83 MHz, given the example where Fin is 100 MHz.
-
-Algorithm:
+this alogerthims devleloped by Eng.Ramy Rabie his email is ramyrabie667@gmail.com 
+Algorithm: 
 1. PI is approximated to be between 3 and 4, leaning towards 3, leading to a division process involving specific pulse generation intervals.
 2. The value of PI is expressed as 3 + 0.1416, which is further simplified to 3 + 177/1250 or 3 + 177/(177 + 1073).
 3. The division process includes cycles of dividing by 3 for 1073 times and by 4 for 177 times.
