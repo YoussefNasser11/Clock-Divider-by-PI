@@ -3,7 +3,9 @@ Clock Divider by PI (22/7)
 
 Objective:
 Divide an input clock frequency (Fin) by PI (approximately 3.1416) to achieve a target output frequency (Fout). For example, if Fin is 100 MHz, the desired Fout is approximately 31.83 MHz.
+
 This Alogerthim developed by Eng.Ramy Rabie his mail is ramyrabie667@gmail.com 
+
 Approach:
 1. The value of PI is approximated to be between 3 and 4, closer to 3.
 2. By generating pulses at specific intervals during division by 3 and 4, we aim to achieve an average frequency of 31.83 MHz.
